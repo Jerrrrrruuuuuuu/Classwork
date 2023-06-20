@@ -1,0 +1,43 @@
+body{
+    background-image: url(backk.jpg);
+    background-repeat: no-repeat;
+
+}
+.logo{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+.text_header{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+.text_header1{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+}
+.text_header2{
+    font-size: 29px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+}
+.end1{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+.link{
+    color: white;
+}
+
