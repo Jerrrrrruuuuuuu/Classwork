@@ -40,4 +40,25 @@ body{
 .link{
     color: white;
 }
-
+.block2{
+    margin-top: 650px;
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.block2_mini{
+    font-family: sans-serif;
+}
+.h1{
+    color: #868585;
+    font-family: sans-serif;
+}
+.picture{
+    margin-top: 125px;
+}
+@media (max-width: 1204px){
+    .picture{
+        margin-top: 125px;
+        display: none;
+    }
+}
