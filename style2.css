@@ -47,6 +47,7 @@ body{
     margin-left: 140px;
     border: 0.1px solid rgb(253, 244, 233);
     text-align: center;
+    cursor: pointer;
 }
 .final{
     text-align: center;
