@@ -1,5 +1,5 @@
 body{
-    background-image: url(backk.jpg);
+    background-image: url(image/backk.jpg);
     background-repeat: no-repeat;
 
 }
@@ -63,24 +63,44 @@ body{
     }
 }
 .block3{
-    margin-top: 300px;
+    margin-top: 100px;
     margin-left: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 .green{
     color: #868585;
     font-family: sans-serif;
+    margin-top: 180px;
+    margin-left: 300px;
 }
 .mini_mini_block{
-    width: 500px;
+    width: 550px;
     margin-top: 50px;
     font-family: sans-serif;
     display: flex;
     justify-content: space-between;
 }
 .mini_mini_block1{
-    width: 500px;
+    width: 550px;
     margin-top: 50px;
     font-family: sans-serif;
     display: flex;
     justify-content: space-between;
+}
+.mini_mini-block2{
+    margin-top: 50px;
+    width: 560px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;  
+}
+.mini_block3{
+    margin-top: 48px;
+}
+@media (max-width: 1204px){
+    .mini_block3{
+        margin-top: 125px;
+        display: none;
+    }
 }
